@@ -18,5 +18,30 @@ Grow Castle 캐릭터 레벨링 비율 계산기입니다.
 
 Python이 설치되어 있다면 다음 명령어로 실행할 수 있습니다.
 
-```bash
-python main.py
+## Created by
+SL_jinyee
+
+
+# Grow Castle Leveling Calculator
+
+A leveling ratio calculator for Grow Castle characters.
+
+## Download
+
+Download the latest exe file from the link below.
+
+[Download Latest Version](../../releases/latest)
+
+## How to Use
+
+1. Download `GrowCastleCalculator.exe`.
+2. Double-click the file to run it.
+3. If a Windows security warning appears, click `More info → Run anyway`.
+
+## Run from Source
+
+If Python is installed, you can run the app with the following command:
+
+## Created by
+SL_jinyee
+

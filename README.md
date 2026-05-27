@@ -18,7 +18,7 @@ Grow Castle 캐릭터 레벨링 비율 계산기입니다.
 
 Python이 설치되어 있다면 다음 명령어로 실행할 수 있습니다.
 
-## Created by
+## 제작자
 SL_jinyee
 
 

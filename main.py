@@ -63,14 +63,29 @@ DEFAULT_CHARACTERS = [
     {"name": "Troll King", "type": "Leader", "ratio": 0.00},
     {"name": "Town Archer", "type": "Extra", "ratio": 0.08},
     {"name": "Castle HP", "type": "Extra", "ratio": 0.07},
-    {"name": "Lightning Archer", "type": "Extra", "ratio": 0.02},
 ]
 
 DEFAULT_SETTINGS = {
     "last_wave": "10000",
-    "selected": ["Assassin", "Lightning Archer", "Zeus", "Castle HP", "Thor", "Town Archer"],
+    "selected": ["Assassin", "Zeus", "Castle HP", "Thor", "Town Archer"],
     "characters": DEFAULT_CHARACTERS
 }
+
+OBSOLETE_CHARACTERS = {"Lightning Archer"}
+
+
+def clean_settings(data):
+    """Remove characters that should no longer appear, even from old saved settings."""
+    data["characters"] = [
+        c for c in data.get("characters", [])
+        if c.get("name") not in OBSOLETE_CHARACTERS
+    ]
+    valid_names = {c.get("name") for c in data.get("characters", []) if c.get("name")}
+    data["selected"] = [
+        name for name in data.get("selected", [])
+        if name in valid_names and name not in OBSOLETE_CHARACTERS
+    ]
+    return data
 
 
 def base_dir():
@@ -114,6 +129,8 @@ def load_settings():
         else:
             existing[c["name"]].setdefault("type", c["type"])
             existing[c["name"]].setdefault("ratio", c["ratio"])
+    data = clean_settings(data)
+    save_settings(data)
     return data
 
 

@@ -1,7 +1,16 @@
 @echo off
-pyinstaller --onefile --noconsole --name GrowCastleCalculator main.py
-xcopy /E /I /Y assets dist\assets
-copy /Y settings.json dist\settings.json
+setlocal
+
+REM Clean previous builds so old files do not confuse the new exe.
+rmdir /S /Q build 2>nul
+rmdir /S /Q dist 2>nul
+del /Q GrowCastleCalculator.spec 2>nul
+
+REM Build a true one-file exe with images bundled inside the exe.
+pyinstaller --onefile --noconsole --name GrowCastleCalculator --add-data "assets;assets" main.py
+
 echo.
-echo Build complete. Upload dist\GrowCastleCalculator.exe and keep dist\assets + dist\settings.json with it if needed.
+echo Build complete.
+echo New exe: dist\GrowCastleCalculator.exe
+echo You can upload this exe alone to GitHub Releases.
 pause

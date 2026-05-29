@@ -1,5 +1,6 @@
 {
-  "last_wave": "333k",
+  "language": "en",
+  "last_wave": "10000",
   "selected": [
     "Assassin",
     "Zeus",
@@ -11,326 +12,274 @@
     {
       "name": "Archer",
       "type": "Hero",
-      "ratio": 0.0,
-      "emoji": "🏹"
+      "ratio": 0.0
     },
     {
       "name": "Hunter",
       "type": "Hero",
-      "ratio": 0.0,
-      "emoji": "🎯"
+      "ratio": 0.0
     },
     {
       "name": "Elf",
       "type": "Hero",
-      "ratio": 0.0,
-      "emoji": "🍃"
+      "ratio": 0.0
     },
     {
       "name": "Ice Mage",
       "type": "Hero",
-      "ratio": 0.0,
-      "emoji": "❄"
+      "ratio": 0.0
     },
     {
       "name": "Lightning Mage",
       "type": "Hero",
-      "ratio": 0.0,
-      "emoji": "⚡"
+      "ratio": 0.0
     },
     {
       "name": "Fire Mage",
       "type": "Hero",
-      "ratio": 0.0,
-      "emoji": "🔥"
+      "ratio": 0.0
     },
     {
       "name": "White Mage",
       "type": "Hero",
-      "ratio": 0.0,
-      "emoji": "✚"
+      "ratio": 0.0
     },
     {
       "name": "Ogre",
       "type": "Hero",
-      "ratio": 0.0,
-      "emoji": "🪓"
+      "ratio": 0.0
     },
     {
       "name": "Necromancer",
       "type": "Hero",
-      "ratio": 0.0,
-      "emoji": "☠"
+      "ratio": 0.0
     },
     {
       "name": "Military Band (F)",
       "type": "Hero",
-      "ratio": 0.0,
-      "emoji": "🎺"
+      "ratio": 0.0
     },
     {
       "name": "Military Band (M)",
       "type": "Hero",
-      "ratio": 0.0,
-      "emoji": "🥁"
+      "ratio": 0.0
     },
     {
       "name": "Priest",
       "type": "Hero",
-      "ratio": 0.0,
-      "emoji": "✦"
+      "ratio": 0.0
     },
     {
       "name": "Tiny Giant",
       "type": "Hero",
-      "ratio": 0.0,
-      "emoji": "💪"
+      "ratio": 0.0
     },
     {
       "name": "Slinger",
       "type": "Hero",
-      "ratio": 0.0,
-      "emoji": "◉"
+      "ratio": 0.0
     },
     {
       "name": "Smith",
       "type": "Hero",
-      "ratio": 0.0,
-      "emoji": "⚒"
+      "ratio": 0.0
     },
     {
       "name": "Voodoo",
       "type": "Hero",
-      "ratio": 0.0,
-      "emoji": "✹"
+      "ratio": 0.0
     },
     {
       "name": "Bazooka Man",
       "type": "Hero",
-      "ratio": 0.0,
-      "emoji": "☄"
+      "ratio": 0.0
     },
     {
       "name": "Knight",
       "type": "Hero",
-      "ratio": 0.0,
-      "emoji": "🛡"
+      "ratio": 0.0
     },
     {
       "name": "Architect",
       "type": "Hero",
-      "ratio": 0.0,
-      "emoji": "▣"
+      "ratio": 0.0
     },
     {
       "name": "Lisa",
       "type": "Hero",
-      "ratio": 0.0,
-      "emoji": "★"
+      "ratio": 0.0
     },
     {
       "name": "Alice",
       "type": "Hero",
-      "ratio": 0.0,
-      "emoji": "◇"
+      "ratio": 0.0
     },
     {
       "name": "Dorothy",
       "type": "Hero",
-      "ratio": 0.0,
-      "emoji": "◆"
+      "ratio": 0.0
     },
     {
       "name": "Druid",
       "type": "Hero",
-      "ratio": 0.0,
-      "emoji": "🌿"
+      "ratio": 0.0
     },
     {
       "name": "Assassin",
       "type": "Hero",
-      "ratio": 0.02,
-      "emoji": "🗡"
+      "ratio": 0.02
     },
     {
       "name": "Flying Orc",
       "type": "Hero",
-      "ratio": 0.0,
-      "emoji": "🪽"
+      "ratio": 0.0
     },
     {
       "name": "Windy",
       "type": "Hero",
-      "ratio": 0.0,
-      "emoji": "〰"
+      "ratio": 0.0
     },
     {
       "name": "Angel",
       "type": "Hero",
-      "ratio": 0.0,
-      "emoji": "✧"
+      "ratio": 0.0
     },
     {
       "name": "Zeus",
       "type": "Hero",
-      "ratio": 0.03,
-      "emoji": "⚡"
+      "ratio": 0.03
     },
     {
       "name": "Golem Master",
       "type": "Hero",
-      "ratio": 0.0,
-      "emoji": "⬢"
+      "ratio": 0.0
     },
     {
       "name": "Succubus",
       "type": "Hero",
-      "ratio": 0.0,
-      "emoji": "♥"
+      "ratio": 0.0
     },
     {
       "name": "Elizabeth",
       "type": "Hero",
-      "ratio": 0.0,
-      "emoji": "♛"
+      "ratio": 0.0
     },
     {
       "name": "Orc Band",
       "type": "Hero",
-      "ratio": 0.0,
-      "emoji": "♫"
+      "ratio": 0.0
     },
     {
       "name": "Defender",
       "type": "Hero",
-      "ratio": 0.0,
-      "emoji": "▰"
+      "ratio": 0.0
     },
     {
       "name": "Goblin",
       "type": "Hero",
-      "ratio": 0.0,
-      "emoji": "☘"
+      "ratio": 0.0
     },
     {
       "name": "Alchemist",
       "type": "Hero",
-      "ratio": 0.0,
-      "emoji": "⚗"
+      "ratio": 0.0
     },
     {
       "name": "Rogue",
       "type": "Hero",
-      "ratio": 0.0,
-      "emoji": "♠"
+      "ratio": 0.0
     },
     {
       "name": "Chrono",
       "type": "Hero",
-      "ratio": 0.0,
-      "emoji": "⏱"
+      "ratio": 0.0
     },
     {
       "name": "Dark Skeleton",
       "type": "Hero",
-      "ratio": 0.0,
-      "emoji": "☠"
+      "ratio": 0.0
     },
     {
       "name": "Stone",
       "type": "Hero",
-      "ratio": 0.0,
-      "emoji": "⬛"
+      "ratio": 0.0
     },
     {
       "name": "Poseidon",
       "type": "Hero",
-      "ratio": 0.0,
-      "emoji": "≋"
+      "ratio": 0.0
     },
     {
       "name": "Ice Sorceress",
       "type": "Hero",
-      "ratio": 0.0,
-      "emoji": "✺"
+      "ratio": 0.0
     },
     {
       "name": "Edward",
       "type": "Leader",
-      "ratio": 0.0,
-      "emoji": "👑"
+      "ratio": 0.0
     },
     {
       "name": "Solar",
       "type": "Leader",
-      "ratio": 0.0,
-      "emoji": "☀"
+      "ratio": 0.0
     },
     {
       "name": "Zero",
       "type": "Leader",
-      "ratio": 0.0,
-      "emoji": "❄"
+      "ratio": 0.0
     },
     {
       "name": "Thor",
       "type": "Leader",
-      "ratio": 0.05,
-      "emoji": "⚒"
+      "ratio": 0.05
     },
     {
       "name": "Sara",
       "type": "Leader",
-      "ratio": 0.0,
-      "emoji": "✶"
+      "ratio": 0.0
     },
     {
       "name": "Tony",
       "type": "Leader",
-      "ratio": 0.0,
-      "emoji": "$"
+      "ratio": 0.0
     },
     {
       "name": "Din",
       "type": "Leader",
-      "ratio": 0.0,
-      "emoji": "🐉"
+      "ratio": 0.0
     },
     {
       "name": "Orc King",
       "type": "Leader",
-      "ratio": 0.0,
-      "emoji": "♚"
+      "ratio": 0.0
     },
     {
       "name": "Skeleton King",
       "type": "Leader",
-      "ratio": 0.0,
-      "emoji": "☠"
+      "ratio": 0.0
     },
     {
       "name": "Mechanic",
       "type": "Leader",
-      "ratio": 0.0,
-      "emoji": "⚙"
+      "ratio": 0.0
     },
     {
       "name": "Troll King",
       "type": "Leader",
-      "ratio": 0.0,
-      "emoji": "♜"
+      "ratio": 0.0
     },
     {
       "name": "Town Archer",
       "type": "Extra",
-      "ratio": 0.08,
-      "emoji": "🏹"
+      "ratio": 0.08
     },
     {
       "name": "Castle HP",
       "type": "Extra",
-      "ratio": 0.07,
-      "emoji": "🏰"
+      "ratio": 0.07
     }
-  ]
+  ],
+  "recommend_data": {},
+  "recommend_extra_percent": 10
 }
